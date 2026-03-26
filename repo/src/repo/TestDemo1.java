@@ -10,8 +10,8 @@ public class TestDemo1 {
 	public static void main(String[] args) {
 		TestDemo1 td=new TestDemo1();
 		td.bookid=1;
-td.title="java";
-td.author="ANJANA";
+td.title="JAVA";
+td.author="SRIKANTH ";
 price=200;
 discount=0.1;
  double total=price-discount;
