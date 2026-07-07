@@ -11,14 +11,14 @@ public class MagicNumber {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter your input number:");
 		int n=sc.nextInt();
-//		package repo;
+
 
 
         int sum = n;
         int temp;
 
         while (sum > 9) {
-            temp = sum;   // ✅ assign value
+            temp = sum;  
             sum = 0;
 
             while (temp > 0) {

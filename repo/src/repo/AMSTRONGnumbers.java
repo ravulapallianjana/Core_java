@@ -23,7 +23,7 @@ public class AMSTRONGnumbers {
 			n=n/10;
 			sum=sum+r*r*r;
 		}
-//		System.out.println("amstrong value:"+ sum);
+		System.out.println("amstrong value:"+ sum);
 		if(temp==sum) {
 			System.out.println(" given num is armstrong");
 		}else {
