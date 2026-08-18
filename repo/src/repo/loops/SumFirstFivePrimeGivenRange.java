@@ -11,7 +11,7 @@ public class SumFirstFivePrimeGivenRange {
 
 		}
 		for (int i = 2; i < n; i++) {
-			if (n % i== 0) {
+			if (n % i == 0) {
 				return false;
 
 			}
@@ -43,7 +43,7 @@ public class SumFirstFivePrimeGivenRange {
 		System.out.println(sum);
 		if (sum % 2 == 0) {
 			System.out.println("sum is even:" + sum);
-		}else {
+		} else {
 			System.out.println("sum is odd");
 		}
 
